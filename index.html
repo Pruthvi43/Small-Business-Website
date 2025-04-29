@@ -13,7 +13,7 @@
 <body>
 
 
-  <nav class="navbar navbar-expand-sm bg-light">
+  <nav class="navbar navbar-expand-sm bg-light fixed-top">
     <div class="container-fluid">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -23,7 +23,10 @@
           <a class="nav-link" href="#About Us"> About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link 3</a>
+          <a class="nav-link" href="#Employee">Employees</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact Us</a>
         </li>
       </ul>
     </div>
@@ -31,7 +34,7 @@
 
 
 
-  <div class="container-fluid mt-3">
+  <div class="container-fluid mt-3 p-5">
     <h1 class="text-center">Big Boy Bakery</h1>
     <p class="text-center">Our Bakery consists of many delights to fulfil your hunger while also keeping your stomach
       satisfied.</p>
@@ -80,7 +83,7 @@
 
 
       <div class="container2">
-        <h1 class="text-center mt-3" id = "About Us"> About Us </h1>
+        <h1 class="text-center mt-3 p-5" id="About Us"> About Us </h1>
         <div class="row justify-content-between">
           <div class="col p-3 bg-light text-black text-center">Timings</div>
           <div class="col p-3 bg-light text-black text-center">Special Events</div>
@@ -90,55 +93,123 @@
 
       <div class=" row justify-content-between">
         <div class="col p-3 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in mollis elit.
-           Integer bibendum aliquam posuere. Morbi sit amet ligula semper, blandit dui ac, pulvinar nunc. Fusce volutpat nulla quis purus blandit rutrum.
-            Mauris mauris sem, tristique quis porta ut, sagittis a massa. </div>
+          Integer bibendum aliquam posuere. Morbi sit amet ligula semper, blandit dui ac, pulvinar nunc. Fusce volutpat
+          nulla quis purus blandit rutrum.
+          Mauris mauris sem, tristique quis porta ut, sagittis a massa. </div>
 
-            <div class="col p-3 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in mollis elit.
-              Integer bibendum aliquam posuere. Morbi sit amet ligula semper, blandit dui ac, pulvinar nunc. Fusce volutpat nulla quis purus blandit rutrum.
-               Mauris mauris sem, tristique quis porta ut, sagittis a massa. 
-               rmentum ante diam vel main.</div>
+        <div class="col p-3 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in mollis elit.
+          Integer bibendum aliquam posuere. Morbi sit amet ligula semper, blandit dui ac, pulvinar nunc. Fusce volutpat
+          nulla quis purus blandit rutrum.
+          Mauris mauris sem, tristique quis porta ut, sagittis a massa.
+          rmentum ante diam vel main.</div>
 
-               <div class="col p-3 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in mollis elit.
-                Integer bibendum aliquam posuere. Morbi sit amet ligula semper, blandit dui ac, pulvinar nunc. Fusce volutpat nulla quis purus blandit rutrum.
-                 Mauris mauris sem, tristique quis porta ut, sagittis a massa. Pellentesque nec odio vel arcu aliquet tempor. Suspendisse pretium sapien ut ligula maximus, sit amet f
-                 aucibus lacus porttitor. </div>
+        <div class="col p-3 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in mollis elit.
+          Integer bibendum aliquam posuere. Morbi sit amet ligula semper, blandit dui ac, pulvinar nunc. Fusce volutpat
+          nulla quis purus blandit rutrum.
+          Mauris mauris sem, tristique quis porta ut, sagittis a massa. Pellentesque nec odio vel arcu aliquet tempor.
+          Suspendisse pretium sapien ut ligula maximus, sit amet f
+          aucibus lacus porttitor. </div>
       </div>
 
 
 
-      <div class="text-center"> <h1>Contact Us</h1> 
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-          Open modal
+
+      <div>
+        <h1 class="text-center p-5" id="Employee"> Our Employees</h1>
+
+
+
+        <div class="row">
+          <div class="col-sm-4">
+
+            <div class="card" style="width:400px">
+              <img class="card-img-top"
+                src="https://thumbs.dreamstime.com/b/professional-baker-working-his-kitchen-vertical-portrait-handsome-young-smiling-joyfully-to-camera-showing-thumbs-up-98615536.jpg"
+                alt="John The Baker">
+              <div class="card-body">
+                <h4 class="card-title">John The Baker</h4>
+                <p class="card-text">John is a hardworking and competent fellow who loves to make baked goods.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-sm-4">
+            <div class="card" style="width:400px">
+              <img class="card-img-top" src="https://c.stocksy.com/a/2KO000/z9/93498.jpg" alt="Tim The Casheir">
+              <div class="card-body">
+                <h4 class="card-title">Tim The Cashier</h4>
+                <p class="card-text">Tim is a kind and patient person who is always respectful to everyone making him a
+                  great cashier!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+
+            <div class="card" style="width:400px">
+              <img class="card-img-top"
+                src="https://th.bing.com/th/id/OIP.hyYN3tdJqytq_YRmhdU2PwHaE8?rs=1&pid=ImgDetMain"
+                alt="Ana The Food Stylist">
+              <div class="card-body">
+                <h4 class="card-title">Ana The Food Stylist</h4>
+                <p class="card-text">Ana is a friendly and an exceptional Cake Designer her percision when putting
+                  frosting on the cake is perfect for any occasion and her talent is through the roof!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+      <div class="text-center mt-4" >
+        <h1>Contact Us</h1>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" id="Contact">
+          Info
         </button>
       </div>
-      
+
       <!-- The Modal -->
       <div class="modal" id="myModal">
         <div class="modal-dialog">
           <div class="modal-content">
-      
+
             <!-- Modal Header -->
             <div class="modal-header">
-              <h4 class="modal-title">Modal Heading</h4>
+              <h4 class="modal-title">Contact Information</h4>
               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-      
+
             <!-- Modal body -->
             <div class="modal-body">
-              Contact
+              Contact Us at Bigboybakery@gmail.com
+              <br>
+              <br>
+
+              or
+              <br>
+              <br>
+
+              Call 1800-BIGBOY
             </div>
-      
+
             <!-- Modal footer -->
             <div class="modal-footer">
               <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
             </div>
-      
+
           </div>
         </div>
       </div>
-       
-      </div>
 
+    </div>
 </body>
 
 </html>
